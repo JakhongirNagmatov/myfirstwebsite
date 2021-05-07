@@ -1,6 +1,41 @@
+@font-face {
+    font-family: myfont1;
+    src: url('../fonts/FuturaPT/FuturaPT-Light.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-Light.ttf')
+        url('../fonts/FuturaPT/FuturaPT-Light.woff');
+
+}
+@font-face {
+    font-family: myfont2;
+    src: url('../fonts/FuturaPT/FuturaPT-Medium.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-Medium.ttf')
+        url('../fonts/FuturaPT/FuturaPT-Medium.woff');
+}
+@font-face {
+    font-family: myfont3;
+    src: url('../fonts/FuturaPT/FuturaPTCond-Bold.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-Bold.ttf')
+        url('../fonts/FuturaPT/FuturaPTCond-Bold.woff');
+}
+@font-face {
+    font-family: myfont4;
+    src: url('../fonts/FuturaPT/FuturaPTCond-ExtraBold.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-ExtraBold.ttf')
+        url('../fonts/FuturaPT/FuturaPTCond-ExtraBold.woff');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: montserratbold;
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
 * {
     box-sizing: border-box;
-    font-family: 'myfont';
+    font-family: 'myfont1';
 }
 
  .selector-for-some-widget {
@@ -16,23 +51,7 @@
     height: 100%;
 }
 
-@font-face {
-    font-family: myfont;
-    src: url('fonts/FuturaPT/FuturaPT-Light.ttf');
-}
-@font-face {
-    font-family: myfont2;
-    src: url('fonts/FuturaPT/FuturaPT-ExtraBold.ttf;')
-}
 
-@font-face {
-    font-family: montserrat;
-    src: url('fonts/Montserrat/Montserrat-Regular.ttf');
-}
-@font-face {
-    font-family: montserratbold;
-    src: url('fonts/Montserrat/Montserrat-Bold.ttf');
-}
 /* ----------------Top Navbar------------------------------- */
 
 
