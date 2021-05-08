@@ -1,28 +1,23 @@
 @font-face {
     font-family: myfont1;
-    src: url('../fonts/FuturaPT/FuturaPT-Light.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-Light.ttf')
-        url('../fonts/FuturaPT/FuturaPT-Light.woff');
+    src: url('../fonts/FuturaPT/FuturaPT-Light.ttf'),
+        url('../fonts/FuturaPT/FuturaPT-Light.woff'),
+        url('../fonts/FuturaPT/FuturaPT-Light.eot');   
 
 }
 @font-face {
-    font-family: myfont2;
-    src: url('../fonts/FuturaPT/FuturaPT-Medium.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-Medium.ttf')
-        url('../fonts/FuturaPT/FuturaPT-Medium.woff');
+    font-family: myfont2; 
+    src: url('../fonts/FuturaPT/FuturaPT-Medium.ttf'),
+        url('../fonts/FuturaPT/FuturaPT-Medium.woff'),
+        url('../fonts/FuturaPT/FuturaPT-Medium.eot');
 }
 @font-face {
-    font-family: myfont3;
-    src: url('../fonts/FuturaPT/FuturaPTCond-Bold.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-Bold.ttf')
-        url('../fonts/FuturaPT/FuturaPTCond-Bold.woff');
+    font-family: myfont3; 
+    src: url('../fonts/FuturaPT/FuturaPT-Bold.ttf'),
+        url('../fonts/FuturaPT/FuturaPTCond-Bold.woff'),
+        url('../fonts/FuturaPT/FuturaPTCond-Bold.eot');
 }
-@font-face {
-    font-family: myfont4;
-    src: url('../fonts/FuturaPT/FuturaPTCond-ExtraBold.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-ExtraBold.ttf')
-        url('../fonts/FuturaPT/FuturaPTCond-ExtraBold.woff');
-}
+
 
 @font-face {
     font-family: montserrat;
@@ -35,7 +30,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'myfont1';
+    
 }
 
  .selector-for-some-widget {
@@ -133,7 +128,7 @@ ul.socialIcons {
   max-width:100%;
 }
 .navbar-text {
-    font-family: montserratbold, sans-serif;   
+    font-family: 'montserratbold', sans-serif;   
     font-size: 14px;
     color: black;
     padding: 0 10px;
@@ -162,10 +157,7 @@ ul.socialIcons {
 .carousel-caption {
     top: 60%;
     transform: translateY(-50%);
-    font-family: myfont2;
     
-    
-        
     
 }
 .carousel-caption h2 {
@@ -173,10 +165,11 @@ ul.socialIcons {
 }
 .carousel-caption p {
     font-size: 1.5em;
+    font-family: 'myfont1';
 }
 
 .carousel-inner h2 {
-    font-family: montserratbold;
+    font-family: 'montserratbold';
 
 }
 
@@ -195,11 +188,11 @@ ul.socialIcons {
     font-size: 24px;
     padding: 0;
     margin: 0;
-    max-width: 100%;    
+    max-width: 100%; 
+    font-family: 'myfont2';   
 }
-.navbar-text p{
+.navbar p{
     color: white;
-    font-weight: bold;
     font-size: 18px;
 }
 
@@ -409,4 +402,12 @@ div.col {
     filter: brightness(60%);
     width:100%;
     height:35vw; 
+}
+
+
+
+/* For sampleproject page */
+
+.img360 div {
+    text-align: center;
 }
