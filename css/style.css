@@ -30,7 +30,7 @@
 
 * {
     box-sizing: border-box;
-    
+    overflow-x: hidden;
 }
 
  .selector-for-some-widget {
