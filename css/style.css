@@ -1,337 +1,303 @@
 @font-face {
-    font-family: myfont1;
-    src: url('../fonts/FuturaPT/FuturaPT-Light.ttf'),
-        url('../fonts/FuturaPT/FuturaPT-Light.woff'),
-        url('../fonts/FuturaPT/FuturaPT-Light.eot');   
-
+  font-family: myfont1;
+  src: url("../fonts/FuturaPT/FuturaPT-Light.ttf"),
+    url("../fonts/FuturaPT/FuturaPT-Light.woff"),
+    url("../fonts/FuturaPT/FuturaPT-Light.eot");
 }
 @font-face {
-    font-family: myfont2; 
-    src: url('../fonts/FuturaPT/FuturaPT-Medium.ttf'),
-        url('../fonts/FuturaPT/FuturaPT-Medium.woff'),
-        url('../fonts/FuturaPT/FuturaPT-Medium.eot');
+  font-family: myfont2;
+  src: url("../fonts/FuturaPT/FuturaPT-Medium.ttf"),
+    url("../fonts/FuturaPT/FuturaPT-Medium.woff"),
+    url("../fonts/FuturaPT/FuturaPT-Medium.eot");
 }
 @font-face {
-    font-family: myfont3; 
-    src: url('../fonts/FuturaPT/FuturaPT-Bold.ttf'),
-        url('../fonts/FuturaPT/FuturaPTCond-Bold.woff'),
-        url('../fonts/FuturaPT/FuturaPTCond-Bold.eot');
+  font-family: myfont3;
+  src: url("../fonts/FuturaPT/FuturaPT-Bold.ttf"),
+    url("../fonts/FuturaPT/FuturaPTCond-Bold.woff"),
+    url("../fonts/FuturaPT/FuturaPTCond-Bold.eot");
 }
-
 
 @font-face {
-    font-family: montserrat;
-    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+  font-family: montserrat;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 @font-face {
-    font-family: montserratbold;
-    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+  font-family: montserratbold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
 * {
-    box-sizing: border-box;
-    overflow-x: hidden;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
- .selector-for-some-widget {
-    box-sizing: content-box;
-    padding-bottom: 0;
-  } 
-
-
- html body {
-    margin: 0;
-    padding-bottom: 0px;
-    overflow-x: hidden;
-    height: 100%;
+.selector-for-some-widget {
+  box-sizing: content-box;
+  padding-bottom: 0;
 }
 
+html body {
+  margin: 0;
+  padding-bottom: 0px;
+  overflow-x: hidden;
+  height: 100%;
+}
 
 /* ----------------Top Navbar------------------------------- */
 
-
-
 ul.socialIcons {
-    padding: 0;
-    text-align: center;
-    font-size: 14px;
-    margin-right: 10px;
-  }
-  
-  .socialIcons li {
-    background-color: yellow;
-    list-style: none;
-    display: inline-block;
-    margin: 4px;
-    border-radius: 2em;
-    overflow: hidden;
-    padding: 14px;
-    padding-top: 0;
-    padding-left: 0;
-  }
-  
-  .socialIcons li a {
-    display: block;
-    padding: 0.5em;
-    min-width: 1.28571429em;
-    max-width: 1.28571429em;
-    height: 1.28571429em;
-    white-space: nowrap;
-    line-height: 1.5em; /*it's working only when you write text with icon*/
-    transition: 0.5s;
-    text-decoration: none;
-    font-family: arial;
-    color: #fff;
-  }
-  
-  .socialIcons li i {
-    margin-right: 0.5em;
-  }
-  
-  .socialIcons li:hover a {
-    max-width: 200px;
-    padding-right: 1em;
-  }
-  
-  .socialIcons .facebook {
-    background-color: #3b5998;
-    box-shadow: 0 0 16px #3b5998;
-  }
-  
-  .socialIcons .twitter {
-    background-color: #00aced;
-    box-shadow: 0 0 16px #00aced;
-  }
-  
-  .socialIcons .instagram {
-    background-color: #cd486b;
-    box-shadow: 0 0 16px #cd486b;
-  }
-  
-  .socialIcons .tik-tok {
-    background-color: #000000;
-    box-shadow: 0 0 16px #000000;
-  }
-  
-  .socialIcons .telegram {
-    background-color: #0088cc;
-    box-shadow: 0 0 16px #0088cc;
-    
-  }
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+  padding: 14px;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.socialIcons li a {
+  display: block;
+  padding: 0.5em;
+  min-width: 1.28571429em;
+  max-width: 1.28571429em;
+  height: 1.28571429em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+  max-width: 200px;
+  padding-right: 1em;
+}
+
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .twitter {
+  background-color: #00aced;
+  box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .instagram {
+  background-color: #cd486b;
+  box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .tik-tok {
+  background-color: #000000;
+  box-shadow: 0 0 16px #000000;
+}
+
+.socialIcons .telegram {
+  background-color: #0088cc;
+  box-shadow: 0 0 16px #0088cc;
+}
 
 /* ----------------------------------------------- */
 /* -----------------Main Navbar----------------------------------------- */
 .addnav {
-    background: rgba(0,0,0, 0.1)
+  background: rgba(0, 0, 0, 0.1);
 }
 .nav {
-  max-width:100%;
+  max-width: 100%;
 }
 .navbar-text {
-    font-family: 'montserratbold', sans-serif;   
-    font-size: 14px;
-    color: black;
-    padding: 0 10px;
-
+  font-family: "montserratbold", sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 0 10px;
 }
 
 .linkmargin {
-    margin: 0 7px;
+  margin: 0 7px;
 }
 /* -------------------------------------------------------- */
 .row {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 /* --------------------------------------------------------- */
 
 /* ----------------Carousel------------------------------- */
 
 .carousel img {
-    filter: brightness(40%);
-    
+  filter: brightness(40%);
 }
 .carousel {
-    max-width: 100%;
+  max-width: 100%;
 }
 .carousel-caption {
-    top: 60%;
-    transform: translateY(-50%);
-    
-    
+  top: 60%;
+  transform: translateY(-50%);
 }
 .carousel-caption h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 .carousel-caption p {
-    font-size: 1.5em;
-    font-family: 'myfont1';
+  font-size: 1.5em;
+  font-family: "myfont1";
 }
 
 .carousel-inner h2 {
-    font-family: 'montserratbold';
-
+  font-family: "montserratbold";
 }
 
 /* ------------принцип работы ------------------- */
 
-
 .myshadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-nav {
-    margin: 0;
-    padding: 7.5px 15px;
+  margin: 0;
+  padding: 7.5px 15px;
 }
 .navbar {
-    font-size: 24px;
-    padding: 0;
-    margin: 0;
-    max-width: 100%; 
-    font-family: 'myfont2';   
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  font-family: "myfont2";
 }
-.navbar p{
-    color: white;
-    font-size: 18px;
+.navbar p {
+  color: white;
+  font-size: 18px;
 }
 
 .navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .nav-item1 .zakaz {
-    border: 1px solid white;
-    margin: 0 5px;
-    border-radius: 20px;
-    padding: 0;
-    
-    
+  border: 1px solid white;
+  margin: 0 5px;
+  border-radius: 20px;
+  padding: 0;
 }
-/* .navbar li {
-    display: inline-block;
-    text-align: center;
-}
-.navbar ul {
-    text-align: center;
-    
-} */
-
-
 
 /* -------------------О нас-------------------------- */
 
 .pos {
-    object-fit: cover;
-    
+  object-fit: cover;
 }
 .containeron {
-    background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 .container-fluid h2 {
-    font-weight: bolder;
-    padding: 20px;
-    padding-top: 40px;
-    color: white;
-
+  font-weight: bolder;
+  padding: 20px;
+  padding-top: 40px;
+  color: white;
 }
 .container-fluid img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .container-fluid p {
-    color: white;
-    padding: 0 20px;
-    font-size: 24px;
+  color: white;
+  padding: 0 20px;
+  font-size: 24px;
 }
 .montserrat {
-    font-family: montserrat, sans-serif;
+  font-family: montserrat, sans-serif;
 }
-
 
 /* -------------------------------- Услуги -------------------------------- */
 .back2 {
-    background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 div.back1 {
-    background-color: #EEEEEE;
-    max-width: 100%;
-    height: 700px;
-    padding: 30px;
-    
+  background-color: #eeeeee;
+  max-width: 100%;
+  height: 700px;
+  padding: 30px;
 }
 
 /* Проекты */
 .black {
-    color: black;
+  color: black;
 }
 
 div.col {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .brightimg {
-    filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .container-fluid {
-    position: relative;
-    
-  }
-  
-  /* Make the image responsive */
-  .container-fluid img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .ourservice .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .ourservice .btn:hover {
-    background-color: black;
-  }
-.geeks {
-    overflow: hidden; 
-    margin: 0 auto; 
+  position: relative;
 }
-.geeks img{
-    transition: 0.5s all ease-in-out;
-    width: 100%;
+
+/* Make the image responsive */
+.container-fluid img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.ourservice .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ourservice .btn:hover {
+  background-color: black;
+}
+.geeks {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.geeks img {
+  transition: 0.5s all ease-in-out;
+  width: 100%;
 }
 .geeks:hover img {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
-
-
-
 .row img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .col-sm-4 {
   padding-left: 0;
   padding-right: 0;
 }
-
 
 /* ------------ Contact us ----------- */
 .mcontact {
@@ -343,71 +309,62 @@ div.col {
 }
 
 .bcol {
-    border: 1px solid rgba(0,0,0,0.7);
+  border: 1px solid rgba(0, 0, 0, 0.7);
 }
 .fwidth {
-    width: 90%;
-   
+  width: 90%;
 }
 
 .cpad {
-    padding: 25px;
+  padding: 25px;
 }
 .callus {
-    transition: transform .2s;
+  transition: transform 0.2s;
 }
 .callus:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
-
-
-  
 
 /* -------------------------------Footer------------------------- */
-.list-unstyled li a{
-    text-decoration: none;
-    color: white;
+.list-unstyled li a {
+  text-decoration: none;
+  color: white;
 }
 .container {
-    margin: 0;
+  margin: 0;
 }
-
-
 
 /* Projects */
 .bg {
-    /* The image used */
-    background-image: url("images/carousel/projects.jpg");
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("images/carousel/projects.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
 
 .proimg {
-    filter: brightness(60%);
-    width:100%;
-    height:35vw; 
+  filter: brightness(60%);
+  width: 100%;
+  height: 35vw;
 }
-
-
 
 /* For sampleproject page */
 
 .img360 div {
-    text-align: center;
+  text-align: center;
 }
