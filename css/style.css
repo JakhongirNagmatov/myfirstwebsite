@@ -153,9 +153,7 @@ ul.socialIcons {
 .carousel img {
   filter: brightness(40%);
 }
-.carousel {
-  max-width: 100%;
-}
+
 .carousel-caption {
   top: 60%;
   transform: translateY(-50%);
@@ -173,7 +171,9 @@ ul.socialIcons {
 }
 
 /* ------------принцип работы ------------------- */
-
+.principles-sec div i{
+    font-size: 20px;
+}
 .myshadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
